@@ -4,6 +4,8 @@
 
 ## Install pip3 in that VSI 
 > sudo apt update
+
+## Installing Flask
 > sudo apt install python3-flask
 
 ## Run the below script which will start to expose the application
