@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Retrieve Data</title>
+</head>
+<body>
+    <h1>Stored Data</h1>
+    <ul>
+        {% for row in rows %}
+            <li>{{ row[1] }}</li>
+        {% endfor %}
+    </ul>
+    <br>
+    <a href="/">Go Back</a>
+</body>
+</html>
